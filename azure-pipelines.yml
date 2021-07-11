@@ -43,3 +43,11 @@ steps:
     includeLatestTag: true
     useDefaultContext: false
     buildContext: '.'
+- task: DockerCompose@0
+  inputs:
+    containerregistrytype: 'Azure Container Registry'
+    azureSubscription: 'Free Trial(fbdb3974-f29a-4625-b7fa-2a24ba95750e)'
+    azureContainerRegistry: '{"loginServer":"mymvcapp.azurecr.io", "id" : "/subscriptions/fbdb3974-f29a-4625-b7fa-2a24ba95750e/resourceGroups/Vinod/providers/Microsoft.ContainerRegistry/registries/mymvcapp"}'
+    dockerComposeFile: '**/docker-compose.yml'
+    action: 'Run a Docker Compose command'
+    
