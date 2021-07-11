@@ -145,7 +145,8 @@
       <DependentUpon>Dockerfile</DependentUpon>
     </None>
     <None Include="Properties\PublishProfiles\MVCdocker120210711184709.pubxml" />
-    <None Include="Properties\PublishProfiles\OmGaneshayaNamaha20210707102311.pubxml" />
+    <None Include="Properties\PublishProfiles\MVCdocker1202107111847091.pubxml" />
+    <None Include="Properties\PublishProfiles\registry.hub.docker.com_vinodkyadav.pubxml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
