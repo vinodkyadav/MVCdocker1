@@ -53,10 +53,8 @@ steps:
   inputs:
     ConnectionType: 'AzureRM'
     azureSubscription: 'Free Trial(fbdb3974-f29a-4625-b7fa-2a24ba95750e)'
-    appType: 'webApp'
+    appType: 'webAppContainer'
     WebAppName: 'MVCdocker120210711235604'
     deployToSlotOrASE: true
     ResourceGroupName: 'DefaultResourceGroup-CID'
     SlotName: 'production'
-    VirtualApplication: 'mymvcapp'
-    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
