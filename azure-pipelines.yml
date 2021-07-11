@@ -36,7 +36,6 @@ steps:
   displayName: 'Build the Docker image'
   inputs:
     containerregistrytype: 'Container Registry'
-    dockerRegistryEndpoint: 'Docker Hub'
     command: 'Build an image'
     dockerFile: '**/Dockerfile'
     imageName: '$(ImageName)'
