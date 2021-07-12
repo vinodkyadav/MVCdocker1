@@ -60,3 +60,4 @@ steps:
     SlotName: 'production'
     DockerNamespace: 'mymvcapp.azurecr.io/mymvcapp:latest'
     DockerRepository: 'mymvcapp:latest'
+    DockerImageTag: 'latest'
