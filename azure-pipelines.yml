@@ -56,7 +56,7 @@ steps:
     appType: 'webAppContainer'
     WebAppName: 'mymvcapp'
     deployToSlotOrASE: true
-    ResourceGroupName: 'DefaultResourceGroup-CID'
+    ResourceGroupName: 'DefaultResourceGroup-SEA'
     SlotName: 'production'
-    DockerNamespace: 'mymvcapp.azurecr.io/mymvcapp;latest'
-    DockerRepository: 'mymvcapp;latest'
+    DockerNamespace: 'mymvcapp.azurecr.io/mymvcapp:latest'
+    DockerRepository: 'mymvcapp:latest'
