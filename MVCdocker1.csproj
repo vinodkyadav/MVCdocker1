@@ -146,6 +146,7 @@
     </None>
     <None Include="Properties\PublishProfiles\MVCdocker120210711184709.pubxml" />
     <None Include="Properties\PublishProfiles\MVCdocker1202107111847091.pubxml" />
+    <None Include="Properties\PublishProfiles\MVCdocker120210713161509 - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\mymvcapp.pubxml" />
     <None Include="Properties\PublishProfiles\mymvcapp1.pubxml" />
     <None Include="Properties\PublishProfiles\mymvcapp2.pubxml" />
