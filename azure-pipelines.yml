@@ -40,9 +40,8 @@ steps:
     command: 'Build an image'
     dockerFile: '**/Dockerfile'
     imageName: '$(ImageName)'
+    includeSourceTags: true
     includeLatestTag: true
-    useDefaultContext: false
-    buildContext: '.'
 - task: Docker@2
   inputs:
     containerRegistry: 'Azure container connection'
