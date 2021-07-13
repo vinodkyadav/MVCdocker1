@@ -36,7 +36,9 @@ steps:
 - task: Docker@1
   displayName: 'Build the Docker image'
   inputs:
-    containerregistrytype: 'Container Registry'
+    containerregistrytype: 'Azure Container Registry'
+    azureSubscriptionEndpoint: 'Free Trial(3)(fbdb3974-f29a-4625-b7fa-2a24ba95750e)'
+    azureContainerRegistry: 'mymvcapp.azurecr.io'
     command: 'Build an image'
     dockerFile: '**/Dockerfile'
     imageName: '$(ImageName)'
